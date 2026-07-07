@@ -1,6 +1,6 @@
 # kagglekit
 
-**AA Python toolkit for reliable machine learning experiments with reproducible validation, leakage detection, encoding, threshold optimization, ensembling, and experiment tracking.**
+**A Python toolkit for reliable machine learning experiments with reproducible validation, leakage detection, encoding, threshold optimization, ensembling, and experiment tracking.**
 
 The repository has two complementary components:
 
@@ -12,9 +12,9 @@ Together they help eliminate common sources of performance loss, including incon
 ## Install
 
 ```bash
-pip install git+https://github.com/amerob/kaggle-competitor.git
+pip install git+https://github.com/amerob/kagglekit.git
 # or for development
-git clone https://github.com/amerob/kaggle-competitor.git
+git clone https://github.com/amerob/kagglekit.git
 cd kaggle-competitor
 pip install -e ".[dev]" && pytest -q
 ```
@@ -139,7 +139,7 @@ Contributions are welcome, particularly new validation strategies, evaluation me
 
 ## Author
 
-**Amer Hussein** — Machine Learning Engineer
+**Amer Hussein** 
 
 - GitHub: https://github.com/amerob
 - LinkedIn: https://linkedin.com/in/aamero
